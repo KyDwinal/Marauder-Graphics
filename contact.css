@@ -27,30 +27,37 @@ body {
 }
 
 
-.info {
+.steps {
 	display: flex;
 	flex-wrap: wrap;
 	flex-flow: wrap;
-	background-color: #6CC9F1;
+	background-color: #FFEEDB;
+	width: 1440px;
 }
 
-.info > div {
+.steps > div {
 	display: flex;
 	flex-wrap: wrap;
 	flex-flow: wrap;
-	background-color: #6CC9F1;
+	background-color: #FFEEDB;
 	font-size: 24px;
+	text-align: left;
+	align-content: center;
 }
 
-
-.form > div {
-	flex-wrap: wrap;
-	flex-flow: wrap;
+.steps img {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding-top: 10px;
+	justify-content: center;
+	align-content: center;
 }
 
 
 .footer {
-	
+	margin: 100px;
+	height: 100px;
 }
 
 .footer > div {

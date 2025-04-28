@@ -27,11 +27,11 @@
 </head>
 
 
-
 <body>
 	<div class="header">
 		<img src="mglogo.png" alt="Marauder Graphics Club Logo" width="240px" height="100px">
 </body>
+
 
 
 
@@ -44,82 +44,86 @@
 
 
 <style>
-.info {
+.steps {
 	display: flex;
-	height: 500px;
-	width: 840px;
+	width: 1440px;
 	flex-wrap: wrap;
 	flex-flow: wrap;
 	background-color: #FFEEDB;
+	justify-content: flex-end;
+	justify-content: space-between;
 }
 
-.info > div {
+.steps > div {
 	background-color: #FFEEDB;
-	width: 350px;
-	height: 45px;
+	width: 400px;
+	height: 250px;
+	margin: 30px;
 	margin-left: 200px;
-	margin-bottom: 200px;
-	font-size: 24px;
+	padding: 10px;
+	padding-bottom: 30px;
+	font-size: 22px;
 	font-family: Interstate;
 	color: #413C58;
+	align-content: center;
+	text-align: left;
 }
 </style>
 
 
 
-<div class="info">
-	<div>Feel free to reach out! <br><br>You can use the order form by clicking on the link <a href="https://www.studentservicesinc.com/wp-content/uploads/2024/07/Form-1-24-25.pdf">here</a> or use this submission form to the right. You can also email us at <a href="mailto:maraudergraphics8@gmail.com">maraudergraphics8@gmail.com</a>.
+
+
+<body>
+	<div class="steps">
+		<div>Feel free to reach out!<br><br>You can use the order form by clicking on the link <a href="https://www.studentservicesinc.com/wp-content/uploads/2024/07/Form-1-24-25.pdf">here</a> or use this submission form to the right. You can also email us at <a href="mailto:maraudergraphics8@gmail.com">maraudergraphics8@gmail.com</a>
+		</div>
+		<div class="form">
+			<form action="https://mail.google.com/mail/u/2/#inbox" method="get">
+				<label for="fname">First Name:</label><br>
+				<input type="text" id="fname" name="fname" value="Marauder"><br><br>
+
+				<label for="lname">Last Name:</label><br>
+				<input type="text" id="lname" name="lname" value="Graphics"><br><br>
+
+				<label for="cname">Company/Org Name:</label><br>
+				<input type="text" id="cname" name="cname" value="Company Name"><br><br>
+
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
 	</div>
-</div>
+</body>
 
 
-
-
-
-<style>
-	.form > div {
-
-	}
-</style>
-
-
-
-<div class="form">
-<form action="/action_page.php">
-	<label for="fname">First Name:</label><br>
-	<input type="text" id="fname" name="fname" value=Marauder><br><br>
-	<label for="fname">Last Name:</label><br>
-	<input type="text" id="lname" name="lname" value=Graphics><br><br>
-	<label for="cname">Company/Org Name:</label><br>
-	<input type="text" id="cname" name="cname" value=VilleECHO><br><br>
-	<input type="submit" value=Submit>
-	<input type="reset" value=Reset>
-</form>
-</div>
 
 
 
 <style>
 	.footer {
+		flex-wrap: wrap;
+		flex-flow: wrap;
+		margin-left: 400px;
 		padding: 10px;
 		height: 200px;
 	}
 </style>
 
 
-
-
-<div class="footer">
-	<a href="index.html">Home</a>
-	<a href="gallery.html">Gallery</a>
-	<a href="contact.html">Contact</a>
-	<a href="mailto:maraudergraphics8@gmail.com>"><img src="email.png" alt="Email icon"></a>
-	<a href="https://www.instagram.com/maraudergraphics/"><img src="insta.png" alt="Instagram app icon"></a>
-</div>
-
+<body>
+	<div class="footer">
+		<a href="index.html">Home</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="contact.html">Contact</a>
+		<a href="mailto:maraudergraphics8@gmail.com>"><img src="email.png" alt="Email icon"></a>
+		<a href="https://www.instagram.com/maraudergraphics/"><img src="insta.png" alt="Instagram app icon"></a>
+	</div>
+</body>
 
 
 
 
 
 </html>
+
